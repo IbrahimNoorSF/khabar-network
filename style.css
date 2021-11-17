@@ -8,7 +8,9 @@ section{
     display: flex;
 }
 #section-1{
+    margin-top: 100px;
     margin-bottom: 150px;
+    margin-left: 144px;
 }
 .first-section h1{
     font-size: 70px;
@@ -26,6 +28,70 @@ section{
 }
 .skip{
     color: #FBA24F;
+}
+.followers {
+  margin-top: 100px;
+  display: flex;
+  margin-left: 225px;
+  margin-bottom: 100px;
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 76%;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+.newsletter{
+    display: block;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+.form-box {
+  padding: 10px;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-box input {
+  font-size: 18px;
+  color: #464646;
+  padding: 15px 10px;
+  border: none;
+  outline: none;
+  background: #ffffff;
+}
+
+.form-box button {
+  color: rgb(255, 255, 255);
+  padding: 15px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background: #FBA24F;
+  cursor: pointer;
+}
+.followers h1 {
+  font-size: 30px;
+  color: #FBA24F;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.followers p {
+  color: #666666;
+  font-size: 16px;
+  margin-left: 75px;
+  margin-right: 80px;
+  justify-content: space-between;
+}
+#newsletter-text {
+  color: #3a3a3a;
+  font-size: 32px;
+  text-align: center;
 }
 .first-section{
     width: 50%;
@@ -67,40 +133,38 @@ section{
 }
 #my-recipies h1{
     color: #676767;
+    text-align: center;
     font-size: 36px;
 }
 #my-recipies{
-        text-align: center;
+margin-left: 668px;
 }
 #my-recipies p{
-    margin: 410px;
-    margin-top: 0;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 .cards h1{
     font-family: 'Montserrat', sans-serif;
 }
 .cards{
-    width: 33%;
+    text-align: center;
+    padding: 15px;
+    margin-left: 50px;
     display: block;
     margin-bottom: 210px;
+    border-radius: 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .cards img{
     width: 450px;
 }
 #first-card{
-    margin-left: 150px;
-}
-
-.cards p{
-    padding-right: 141px;
+    margin-left: 200px;
 }
 #footer{
      display: block;
      text-align: center;
-     padding: 125px;
+     padding: 50px;
      background-color: #0B0D17;
-     padding-top: 40px;
 }
 #footer h1{
     font-family: 'Manrope', sans-serif;
